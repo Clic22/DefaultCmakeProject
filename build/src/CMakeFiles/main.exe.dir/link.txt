@@ -1,1 +1,0 @@
-/usr/bin/g++  -O3 -DNDEBUG   CMakeFiles/main.exe.dir/main.cpp.o  -o main.exe  libhello.a -fprofile-arcs --coverage 
