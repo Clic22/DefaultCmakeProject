@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ameindre/code/P2P/src/hello.h
+iostream
+-
+string
+-
+
+/home/ameindre/code/P2P/src/main.cpp
+iostream
+-
+hello.h
+/home/ameindre/code/P2P/src/hello.h
+

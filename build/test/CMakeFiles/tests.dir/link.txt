@@ -1,0 +1,1 @@
+/usr/bin/g++  -O3 -DNDEBUG   CMakeFiles/tests.dir/tests.cpp.o  -o tests  ../src/libhello.a -lgcov ../lib/libgtest_main.a ../lib/libgtest.a -lpthread 
